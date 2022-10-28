@@ -1,15 +1,29 @@
 #include "main.h"
+
 /**
- * main - prints _putchar, fllowd by a new linees
- * Return: Alwys 0 (Success)
- */
+ * main - prints _putchar
+ * Description: prints _putchar
+ * Return: 0 (Success)
+ **/
+
 int main(void)
+
 {
-char abe[] = "_putchar";
-int c;
-for (c = 0; c < 8; c++)
-{
-_putchar(abe[c]);
+
+	char text[9] = "_putchar";
+
+	int i = 0;
+
+	for (i = 0; i < 8; i++)
+
+	{
+
+		_putchar(text[i]);
+
+	}
+
+	_putchar('\n');
+
+	return (0);
+
 }
-_putchar('\n');
-return (0);
