@@ -5,9 +5,12 @@
  *Return: 1 (if letter)
  **/
 
+
+
 int _isalpha(int c)
 
 {
+
 	if (c >= 'a' && c <= 'z')
 
 	{
@@ -31,4 +34,5 @@ int _isalpha(int c)
 		return (0);
 
 	}
+
 }
