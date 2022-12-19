@@ -1,1 +1,1 @@
-0. 98 Battery st. 
+This is 0x0x5 read me file
